@@ -5,6 +5,8 @@ REM Basic testing scripting
 REM >>> -------------
 DELAY 6000
 CTRL SPACE
+DELAY 1000
+DELETE
 DELAY 2000
 STRING terminal.app
 DELAY 2000
@@ -22,3 +24,5 @@ STRING history -c
 ENTER
 DELAY 2000
 GUI q
+
+
