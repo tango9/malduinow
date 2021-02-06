@@ -1,0 +1,24 @@
+REM >>> -------------
+REM TANGONINE
+REM FEB 06 2021
+REM Basic testing scripting
+REM >>> -------------
+DELAY 6000
+CTRL SPACE
+DELAY 2000
+STRING terminal.app
+DELAY 2000
+ENTER
+DELAY 2000
+STRING ls > test.txt
+ENTER
+DELAY 2000
+STRING ping www.google.com
+ENTER
+DELAY 5000
+CTRL c
+DELAY 2000
+STRING history -c
+ENTER
+DELAY 2000
+GUI q
