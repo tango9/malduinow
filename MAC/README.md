@@ -65,4 +65,6 @@ ALT | alt left key
 ALT_RIGHT | alt right key
 GUI | mac clover key
 MODIFIER_KEY | when using combos [CTRL,ALT,DEL]
+LED | 0 0 0  [red-green-blue]
+LOCALE | US, GB, DE, ES. FR, DK, RU
 
