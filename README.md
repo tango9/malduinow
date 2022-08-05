@@ -66,3 +66,5 @@ ALT_RIGHT | alt right key
 GUI | windows log key or mac clover key
 MODIFIER_KEY | when using combos [CTRL,ALT,DEL]
 
+## NOTES
+  No need work added (Aug 5, 2022)
